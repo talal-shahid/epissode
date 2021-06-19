@@ -1,0 +1,130 @@
+
+@font-face {
+	font-family: 'Beatrice';
+	src: 
+		url('../fonts/Beatrice-Display-Bold.otf') 
+		format('opentype');
+}
+@font-face {
+	font-family: 'untitled';
+	src: 
+		url('../fonts/untitled.ttf') 
+		format('truetype');
+}
+@font-face{
+	font-family:"sans-regular";
+	src:
+		url("../fonts/UntitledSansWeb-Regular.eot")
+		format("embedded-opentype");
+	}
+
+body {font-size: 18px; color: #1F3436 !important;}
+p {margin: 0px; font-size: 18px; margin-bottom: 0px;}
+a:hover {text-decoration: none; }
+input {outline: none;}
+button {outline: none;}
+.row {padding: 0px; margin: 0px}
+.no_padding {padding-left: 0px;padding-right: 0px;}
+.less_padding {padding-left: 5px;padding-right: 5px;}
+.main_container {max-width: unset; padding: 0px; margin: 0px;}
+.section_padding {padding: 80px 10px;}
+.beatrice_font {font-family: 'Beatrice';}
+.ta_center {text-align: center;}
+.spacer15 {height: 15px}
+.hod {display: none;}
+.hom {display: block;}
+.hom_inline {display: inline;}
+
+
+
+
+.header {padding-top: 10px}
+.logo {margin-left: 15px; max-width: 45%; height: auto;}
+.header_filter {background-color: #E5E5E5; padding:3px 5px; width: fit-content}
+.header_icons {margin-left: auto;}
+.header_icons img {margin-left: 5px; cursor: pointer;}
+.header_border {border-bottom: 1px solid black; height: calc(100% - 1px)}
+.clear_filter {margin:0px 5px; background-color: #1F3436; border-radius: 50px; padding: 3px; cursor: pointer;}
+
+.headline .beatrice_font {font-size: 60px}
+
+.hero_image img {width: 100%}
+.hero_image_text {background-color: #D1E9EC; padding: 30px 40px 30px 25px}
+.hero_image_text p {margin-bottom: 30px}
+.white_button {background-color: white; padding: 8px 18px;color: #1F3436}
+.white_button:hover {text-decoration: underline; color: #1F3436}
+
+.section_heading {font-size: 60px}
+.job_location {font-weight: bold; text-transform: uppercase;}
+.job_location img {margin-top: -3px; margin-right: 3px}
+
+.open_positions {margin-top: 50px}
+.open_position {border-top: 1px solid #D7DADB; padding: 20px 0px}
+.open_position:last-child {border-bottom: 1px solid #D7DADB;}
+/*.job_position {font-weight: bold;}*/
+.job_time {color: #798586}
+.job_option {margin-left: auto; color: #798586}
+.open_job {background-color: #D1E9EC; border-radius: 50px; padding: 10px; margin-left: 10px; margin-top: -2px; cursor: pointer;}
+
+
+
+.phone_image {background-image: url('../images/phone_bg.png'); background-repeat: no-repeat; background-size: cover;}
+.phone_right {float: right; margin-top: 10px}
+.phone_text {position: absolute;top: 25px; left: 25px; color: white; max-width: 60%}
+.download_app {position: absolute; left: 25px; bottom: 25px}
+.download_app img {margin-right: 10px; background-color: black; padding: 5px 10px; border-radius: 5px;background-color: rgba(255, 255, 255, .3); cursor: pointer;}
+
+.subscribe_text {background-color: #FED5CA}
+.subscribe {position: relative; height: 100%; width: 100%}
+.subscribe_form {position: absolute; bottom: 0px;width: 100%; }
+.subscribe_input {height: 50px; width: 100%; border:0px;width: 80%; padding: 10px}
+.subscribe_button {height: 50px; position: absolute; right: 0px; background-color: white; border:0px;width: 20%; font-weight: bold; font-size: 70%}
+.subscribe_button img {margin-top: -4px}
+.overlay {position: absolute;width: 100%; height: 100%; opacity: 0.3; background-color: black}
+
+.selected_language {color: }
+.footer b {font-size: 80%}
+.links a {display: block; color: #1F3436;}
+.links a:hover {text-decoration: none; color: #1F3436;}
+.light_topic {color: #798586}
+
+
+
+.social_icons {border-top: 1px solid #1F3436}
+.social_icons img {margin-right: 15px; cursor: pointer;}
+
+
+
+
+
+@media only screen and (max-width: 992px)
+{
+	.subscribe_input {width: 70%;}
+	.subscribe_button {width: 30%;}
+}
+@media only screen and (max-width: 768px)
+{
+	.hod {display: block;}
+	.hom {display: none;}
+	.hom_inline {display: none;}
+	.header_border {border-bottom: 0px}
+	.subscribe_form {position: relative;}
+	.subscribe_input {width: 80%;}
+	.subscribe_button {width: 20%;}
+	.footer_logo {margin-bottom: 10px}
+
+}
+@media only screen and (max-width: 500px)
+{
+	.subscribe_input {width: 70%;}
+	.subscribe_button {width: 30%;}
+}
+
+
+
+
+
+
+
+
+.border_ {border:1px solid black;}
